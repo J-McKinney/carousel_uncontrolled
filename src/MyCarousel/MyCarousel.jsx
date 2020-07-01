@@ -5,12 +5,12 @@ import "./MyCarousel.css";
 class MyCarousel extends Component {
   render() {
     return (
-      <Carousel>
-
+      <Carousel interval={2000} keyboard={false} pauseonhover={"true"}>
         <Carousel.Item>
           <img
+            style={{ height: "450px" }}
             className="d-block w-100"
-            src="holder.js/800x400?text=First slide&bg=373940"
+            src={`assets/eclipse.jpg`}
             alt="First slide"
           />
           <Carousel.Caption>
@@ -18,11 +18,11 @@ class MyCarousel extends Component {
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           </Carousel.Caption>
         </Carousel.Item>
-
         <Carousel.Item>
           <img
+            style={{ height: "450px" }}
             className="d-block w-100"
-            src="holder.js/800x400?text=Second slide&bg=373940"
+            src={`assets/milky-way.jpg`}
             alt="Third slide"
           />
           <Carousel.Caption>
@@ -30,11 +30,11 @@ class MyCarousel extends Component {
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </Carousel.Caption>
         </Carousel.Item>
-
         <Carousel.Item>
           <img
+            style={{ height: "450px" }}
             className="d-block w-100"
-            src="holder.js/800x400?text=Third slide&bg=373940"
+            src={`assets/wormhole.png`}
             alt="Third slide"
           />
           <Carousel.Caption>
@@ -44,7 +44,6 @@ class MyCarousel extends Component {
             </p>
           </Carousel.Caption>
         </Carousel.Item>
-
       </Carousel>
     );
   }
