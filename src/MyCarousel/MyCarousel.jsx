@@ -8,7 +8,7 @@ class MyCarousel extends Component {
       <Carousel interval={2000} keyboard={false} pauseonhover={"true"}>
         <Carousel.Item>
           <img
-            style={{ height: "450px" }}
+            style={{ height: "600px" }}
             className="d-block w-100"
             src={`assets/eclipse.jpg`}
             alt="First slide"
@@ -20,7 +20,7 @@ class MyCarousel extends Component {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            style={{ height: "450px" }}
+            style={{ height: "600px" }}
             className="d-block w-100"
             src={`assets/milky-way.jpg`}
             alt="Third slide"
@@ -32,7 +32,7 @@ class MyCarousel extends Component {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            style={{ height: "450px" }}
+            style={{ height: "600px" }}
             className="d-block w-100"
             src={`assets/wormhole.png`}
             alt="Third slide"
